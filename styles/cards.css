@@ -1,0 +1,39 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+
+
+}
+.card{
+
+    width: 49%;
+    border: 2px solid var(--color-grey-7);
+    padding: 2rem;
+    border-radius: var(--radius-2);
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+
+}
+
+.h2Card{
+    font-weight: var(--font-weight-2);
+    font-size: var(--text-size-1);
+    line-height: var(--line-height-2);
+    margin-bottom: 1.3125rem;
+
+}
+
+.textCard{
+    font-weight: var(--font-weight-1);
+    font-size: var(--text-size-3);
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 1.3125rem;
+
+}
+

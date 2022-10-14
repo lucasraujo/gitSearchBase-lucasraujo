@@ -1,0 +1,46 @@
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.imgAndDesc{
+    display: flex;
+    align-items: center;
+
+}
+
+.imgPerfil{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 0.125rem solid var(--color-brand-1);
+
+}
+
+.divUserText{
+margin-left: 1rem;
+height: 4rem;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+.userName{
+    font-weight: var(--font-weight-4);
+    font-size: var( --title-size-3);
+    line-height: var(--line-height-6);
+
+}
+
+.userDesc{
+    font-weight: var(--font-weight-2);
+    font-size: var(--text-size-2) ;
+    line-height: var(--line-hetght-7);
+}
+

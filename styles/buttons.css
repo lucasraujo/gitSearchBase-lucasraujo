@@ -1,0 +1,41 @@
+.buttonHeader{
+    padding: 0.7rem 1.2rem;
+    background-color: var(--color-grey-3);
+    border-radius: var(--radius-2);
+    font-size: var(--text-size-3);
+    font-weight: var(--font-weight-3);
+    border: none;
+    cursor: pointer;
+
+}
+
+.buttonHeader:hover{
+    background-color: var(--color-brand-1);
+}
+
+.buttonHeader:focus{
+    background-color: var(--color-brand-1);
+}
+
+
+
+
+.buttonDefult{
+    padding: 0.5rem 1rem;
+    background-color: var(--color-grey-3);
+    border-radius: var(--radius-2);
+    font-size: var(--text-size-3);
+    font-weight: var(--font-weight-3);
+    border: 2px solid var(--color-grey-7);
+    cursor: pointer;
+    margin-right: 1rem;
+
+}
+
+.buttonDefult:hover{
+    background-color: var(--color-brand-1);
+}
+
+.buttonDefult:focus{
+    background-color: var(--color-brand-1);
+}

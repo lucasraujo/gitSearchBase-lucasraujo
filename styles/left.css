@@ -1,0 +1,79 @@
+.sec1{
+    background-color: var(--color-brand-1); 
+}
+
+.h1Home{
+    font-weight: var( --font-weight-3);
+    font-size: var(--title-size-1);
+    line-height: var( --line-height-1);
+    margin-bottom: 2.5rem;
+}
+
+.pHome{
+    font-weight: var(--font-weight-1);
+    font-size: var(--text-size-1);
+    line-height: var(--line-height-1);
+
+    margin-bottom: 3.5rem;
+}
+.spanAndUsers{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.spanHome{
+    font-weight: var(--font-weight-2);
+    font-size: var(--text-size-2);
+    line-height: var(--line-height-1);
+}
+
+.listResentUser{
+
+    display: flex;
+
+}
+
+.resentUser{
+    list-style: none;
+
+
+}
+
+.resentUser:hover .spanAccess{
+    display: block;
+    position: absolute;
+    top: 2.3rem;
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-weight-3);
+    color: var(--color-grey-2);
+    width: 10rem;
+    background-color: var(--color-grey-7);
+    padding: 4px 8px;
+    border-radius: 4px;
+    z-index: 1;
+
+
+}
+
+.linkUser{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.imgUser{
+    margin: 0 0.2rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+
+}
+
+.spanAccess{
+    display: none;
+}
