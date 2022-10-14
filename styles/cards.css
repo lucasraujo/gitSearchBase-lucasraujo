@@ -9,7 +9,7 @@
 .card{
 
     width: 49%;
-    border: 2px solid var(--color-grey-7);
+    border: 2px solid rgba(255, 255, 255, 0.4);
     padding: 2rem;
     border-radius: var(--radius-2);
     margin-bottom: 1rem;
@@ -21,6 +21,10 @@
 
 }
 
+.card:hover{
+    background-color: var(--color-grey-3);
+}
+
 .h2Card{
     font-weight: var(--font-weight-2);
     font-size: var(--text-size-1);
@@ -28,6 +32,9 @@
     margin-bottom: 1.3125rem;
 
 }
+
+
+
 
 .textCard{
     font-weight: var(--font-weight-1);
